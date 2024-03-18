@@ -1,31 +1,64 @@
 .message {
-
+    margin: 0 70px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .imageAndText {
-
+    width: 575px;
+    height: 77px;
 }
 
 .imageAndText img {
-
+    width: 48px;
+    height: auto;
+    margin: 30px 10px;
 }
 
 .text {
-
-}
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+    background-image: url("./Rectangle_3.png");
+    background-position: center;
+    background-size: auto;
+    box-shadow: 0px 1px 2px 0px #1D21261A;
+    box-shadow: 0px 5px 20px 0px #1D212608;
+    }
 
 .text:after {
 
 }
 
 .name {
-
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .messageText {
-
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 12px;
 }
 
 .time {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
