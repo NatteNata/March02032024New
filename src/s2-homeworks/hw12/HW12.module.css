@@ -19,5 +19,8 @@ html {
 }
 
 .select {
-
+    min-width: 180px;
+    padding: 10px 12px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
 }
