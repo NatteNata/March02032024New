@@ -1,14 +1,50 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    button {
+        width: 82px;
+        height: 30px;
+        padding: 5px 24px 5px 24px;
+        gap: 10px;
+        border-radius: 3px 0px 0px 0px;
+        background-color: #0066CC;
+        color: white;
+        font-size: 14px;
+
+        &:hover {
+            width: 82px;
+        }
+
+        & .disabled {
+            opacity: 0.4%;
+        }
+    }
+
 }
 
 .clock {
+    margin: 70px 100px;
 }
 
 .watch {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    color: #000000;
 }
 
 .watch strong {
+    font-weight: bold;
 }
 
 .more {
+    margin: 8px 0 27px;
+    color: #00000080;
 }

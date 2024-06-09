@@ -19,7 +19,7 @@ const themes = [
 ]
 
 const HW12 = () => {
-    // взять ид темы из редакса
+    // взять ид темы  из редакса
     const themeId = 1
 
     const change = (id: any) => { // дописать функцию
